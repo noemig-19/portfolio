@@ -1,9 +1,11 @@
+import Navbar from "./components/Navbar"
 
 
 
 function App() {
   return (
     <>
+    <Navbar/>
       <header>
         <h1> Noemi Guadalupe Bonilla</h1>
         <h2>frontend web developer</h2>
@@ -75,7 +77,7 @@ function App() {
         </div>
         <div>
           <h2>curriculum</h2>
-          
+
         </div>
       </main>
     </>
