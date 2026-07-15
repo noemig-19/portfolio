@@ -1,25 +1,16 @@
 import Navbar from "./components/Navbar"
-
+import Header from "./components/Header"
 
 
 function App() {
   return (
     <div>
+      <div className="fixed inset-0 -z-10 h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       
     <Navbar/>
-      <header>
-        <img src="https://static.vecteezy.com/system/resources/thumbnails/050/907/439/small/3d-cartoon-woman-with-brown-hair-in-blue-shirt-png.png" alt=""   className="max-w-60"/>
-        <h1> Noemi Guadalupe Bonilla</h1>
-        <h2>frontend web developer</h2>
-      </header>
-      <section>
-        <div>
-          <p>Puoi trovarmi nei seguenti social:</p>
-          <li>github</li>
-          <li>linkedin</li>
-          <li>istagram</li>
-        </div>
-      </section>
+    <Header/>
+      
+      
       <main>
         <div>
           <h2>Le mie competenze</h2>
@@ -83,6 +74,7 @@ function App() {
         </div>
       </main>
       </div>
+    
   
   )
 }
