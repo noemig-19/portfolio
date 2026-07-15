@@ -4,9 +4,11 @@ import Navbar from "./components/Navbar"
 
 function App() {
   return (
-    <>
+    <div>
+      
     <Navbar/>
       <header>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/050/907/439/small/3d-cartoon-woman-with-brown-hair-in-blue-shirt-png.png" alt=""   className="max-w-60"/>
         <h1> Noemi Guadalupe Bonilla</h1>
         <h2>frontend web developer</h2>
       </header>
@@ -80,7 +82,8 @@ function App() {
 
         </div>
       </main>
-    </>
+      </div>
+  
   )
 }
 
