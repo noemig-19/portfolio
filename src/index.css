@@ -3,13 +3,13 @@
 * {
   box-sizing: border-box;
   list-style: none;
-  margin:auto
+  margin: auto
 }
 
 html,
 body,
 #root {
-  
+
   max-width: 100%;
   min-height: 100%;
 }
@@ -19,3 +19,6 @@ body {
 
 }
 
+.about-text {
+  @apply text-mauve-400  mb-4
+}
