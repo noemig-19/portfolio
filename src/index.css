@@ -20,5 +20,5 @@ body {
 }
 
 .about-text {
-  @apply text-mauve-400  mb-4
+  @apply text-mauve-400 mb-4
 }

@@ -1,0 +1,60 @@
+import {
+    SiHtml5,
+    SiJavascript,
+    SiReact,
+    SiTailwindcss,
+    SiNodedotjs,
+    SiMongodb,
+    SiExpress,
+    SiGithub
+} from 'react-icons/si';
+import { FaCss } from "react-icons/fa6";
+
+const icons = [
+                    <SiHtml5 size={40} color='#696969'/>,
+                    <FaCss size={40} color='#696969'/>,
+                    <SiJavascript size={40} color='#696969'/>,
+                    <SiReact size={40} color='#696969'/>,
+                    <SiTailwindcss size={40} color='#696969'/>,
+                    <SiNodedotjs size={40} color='#696969'/>,
+                    <SiMongodb size={40} color='#696969'/>,
+                    <SiExpress size={40} color='#696969'/>,
+                    <SiGithub size={40} color='#696969'/>
+]
+
+function Skills() {
+    return (
+        <main className="max-w-200 pt-24">
+            <div className="p-4 bg-neutral-900/30 border border-neutral-600 rounded-2xl">
+                <div className="pb-8">
+                    <h2 className="text-2xl font-bold text-mauve-200 ">Le mie competenze</h2>
+                </div>
+                <div className='grid grid-cols-4 gap-8 cursor-pointer' >
+                    {
+                        icons.map((items, i) =>(
+                            <div  key={i}>
+                                <li className='p-4 bg-neutral-800 rounded-xl'>{items}</li>   
+                            </div>
+                        ))
+                    }
+
+                </div>
+                   <div>
+                 <div className="py-8">
+                    <h2 className="text-2xl font-bold text-mauve-200 ">certificazioni</h2>
+                </div>
+           
+                <div>
+                    {/**
+             * certificacion del bootcamp y de gitplatzi
+             * <img src="" alt="" />
+             *  */}
+                </div>
+            </div>
+            </div>
+         
+        </main>
+    )
+}
+
+export default Skills
