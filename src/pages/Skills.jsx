@@ -24,7 +24,7 @@ const icons = [
 
 function Skills() {
     return (
-        <main className="max-w-150 pt-24">
+        <main className="w-150 pt-24 max-lg:w-full max-lg:p-4 max-lg:pt-24 ">
             <div className="p-4 bg-neutral-900/30 border border-neutral-600 rounded-2xl">
                 <div className="pb-8">
                     <h2 className="text-2xl font-bold text-mauve-200 ">Le mie competenze</h2>
@@ -45,7 +45,7 @@ function Skills() {
                 </div>
            
            <div className='grid grid-cols-2'>
- <div className='p-2 w-100 bg-neutral-800 rounded-2xl cursor-pointer transition-transform duration-500 hover:scale-110'>
+ <div className='p-2 w-full bg-neutral-800 rounded-2xl cursor-pointer transition-transform duration-500 hover:scale-110'>
              <img src="public/assets/20260715_212202.png" alt="certificato-bootcamp" className='w-72'/>
                 </div>
            </div>
