@@ -1,15 +1,15 @@
 function Contact() {
     return (
-        <main className="w-full px-4 pt-24 max-lg:px-4 max-lg:pt-24">
+        <main className="w-150  pt-24 max-lg:px-4 max-lg:pt-24">
             <div className="mx-auto w-full max-w-3xl rounded-2xl border border-neutral-600 bg-neutral-900/30 p-4">
                 <div className="pb-8">
                     <h2 className="text-2xl font-bold text-mauve-200 capitalize">contatto</h2>
                 </div>
 
-                <form className="flex w-full flex-col justify-center text-mauve-200">
+                <form className="flex w-full flex-col justify-center text-mauve-200" action={"https://forminit.com/f/bkkkwedb"} method="POST">
                     <div className="flex flex-col gap-4">
                         <div className="flex flex-col gap-2 text-lg font-bold sm:flex-row sm:items-center sm:gap-16">
-                            <label htmlFor="name" className="min-w-[80px]">
+                            <label htmlFor="name" className="min-w-20">
                                 nome:
                             </label>
                             <input
@@ -24,7 +24,7 @@ function Contact() {
                         </div>
 
                         <div className="flex flex-col gap-2 text-lg font-bold sm:flex-row sm:items-center sm:gap-16">
-                            <label htmlFor="email" className="min-w-[80px]">
+                            <label htmlFor="email" className="min-w-20">
                                 email:
                             </label>
                             <input
