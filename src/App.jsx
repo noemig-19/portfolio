@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import About from "./pages/About"
 import Skills from "./pages/Skills"
+import Contact from "./pages/Contact"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <div>
         <div className="fixed inset-0 -z-10 h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
@@ -28,20 +30,7 @@ function App() {
             </div>
           </div>
 
-          <div>
-            <h2>contatto</h2>
-            <form>
-              <label htmlFor="" >nomi:</label>
-              <input type="text" />
-              <label htmlFor="" >email:</label>
-              <input type="text" />
-              <div>
-                <label htmlFor="">descrizione</label>
-                <input type="message" />
-                <button>invia</button>
-              </div>
-            </form>
-          </div>
+          
           <div>
             <h2>curriculum</h2>
 
