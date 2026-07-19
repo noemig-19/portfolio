@@ -33,7 +33,7 @@ function Navbar() {
 
                 <li className=" hover:text-cyan-500 transition duration-300 py-2">curriculum</li>
             </div>
-
+          
         </nav>
 
     )
