@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <main className="max-lg:w-full w-150  px-4  pt-24  sm:px-4 max-sm:pt-28">
+        <main className="max-lg:w-full w-158  px-4  pt-24  sm:px-4 max-sm:pt-28">
             <div className=" rounded-2xl border border-neutral-600 bg-neutral-900/30 p-4 m">
                 <div className="pb-8">
                     <h2 className="text-2xl font-bold text-mauve-200 capitalize">contatto</h2>
