@@ -46,7 +46,7 @@ function Skills() {
            
            <div className='grid grid-cols-2'>
  <div className='p-2 w-full bg-neutral-800 rounded-2xl cursor-pointer transition-transform duration-500 hover:scale-110'>
-             <img src="public/assets/20260715_212202.png" alt="certificato-bootcamp" className='w-72'/>
+             <img src="/assets/20260715_212202.png" alt="certificato-bootcamp" className='w-72'/>
                 </div>
            </div>
                
